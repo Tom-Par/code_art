@@ -1,7 +1,15 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
 }
 
 function draw() {
-  background(220);
+  background(135, 206, 235);
+
+  fill("yellow");
+
+  stroke("orange");
+
+  strokeWeight(20)
+
+  circle(550,50,100)
 }
